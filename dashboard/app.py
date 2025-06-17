@@ -29,7 +29,7 @@ pitcher_df["Type"] = "Pitcher"
 combined_df = pd.concat([player_df, pitcher_df])
 
 # SECTION 1: Focus Year (Collapsible)
-st.markdown("## 📅 Focus Year")
+st.markdown("## Focus Year")
 with st.expander("Explore Yearly Statistics", expanded=True):
     selected_year = st.selectbox("Select Year", sorted(combined_df["Year"].unique()))
     st.markdown(f"### Top Stats in {selected_year} (Players & Pitchers)")
@@ -66,7 +66,7 @@ with st.expander("Explore Yearly Statistics", expanded=True):
 
 # SECTION 2: Trends across all years
 st.markdown("---")
-st.markdown("## 📊 Statistics Across All Years")
+st.markdown("## Statistics Across All Years")
 
 with st.expander("Explore Trends & Highlights", expanded=True):
     # Filters: statistic and year range
@@ -121,7 +121,7 @@ with st.expander("Explore Trends & Highlights", expanded=True):
 
 # SECTION 3: Team-based visualizations
 st.markdown("---")
-st.markdown("## 🎯 Team-Based Visualizations")
+st.markdown("## Team-Based Visualizations")
 
 with st.expander("Explore Team Insights", expanded=True):
     selected_team_stat = global_stat  # Reuse selected stat
@@ -192,7 +192,7 @@ with st.expander("Explore Team Insights", expanded=True):
 
 # SECTION 4: Tag Clouds
 st.markdown("---")
-st.markdown("## ☁️ Tag Clouds")
+st.markdown("## Tag Clouds")
 
 with st.expander("Show Word Clouds", expanded=True):
     col1, col2 = st.columns(2)
