@@ -19,9 +19,9 @@ st.markdown(
 )
 
 # Load cleaned data
-player_df = pd.read_csv("statistics_cleaned.csv")
-pitcher_df = pd.read_csv("pitcher_stats_cleaned.csv")
-events_df = pd.read_csv("events_cleaned.csv")
+player_df = pd.read_csv("dashboard/statistics_cleaned.csv")
+pitcher_df = pd.read_csv("dashboard/pitcher_stats_cleaned.csv")
+events_df = pd.read_csv("dashboard/events_cleaned.csv")
 
 # Add type column and combine players + pitchers
 player_df["Type"] = "Player"
