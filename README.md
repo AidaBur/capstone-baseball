@@ -40,18 +40,18 @@ pip install -r requirements.txt
 
 ## Screenshots
 
-### 🎯 Focus Year Stats
+### Focus Year Stats
 ![Focus Year](assets/focus_year.png)
 
-### 📈 Trends Across All Years
+### Trends Across All Years
 ![Average Base on Balls Over Time](assets/across_all_years.png)
 ![Top 10 Performers by Base on Balls](assets/top_10_performers.png)
 ![Heatmap of Averages by Year](assets/heatmap.png)
 
-### 🏟️ Team-Based Visualizations
+### Team-Based Visualizations
 ![Teams](assets/team_based.png)
 
-### ☁️ Word Clouds
+### Word Clouds
 ![Tag Clouds](assets/tag_clouds.png)
 
 ## Dependencies
