@@ -48,7 +48,7 @@ with st.expander("Explore Yearly Statistics", expanded=True):
                 orientation="h",
                 title=f"Top Stats in {selected_year}",
                 hover_data=["Team", "Statistic"],
-                labels={"Value": "Value"}
+                labels={"Value": "Stat Value", "Name": "Player"}
             )
             st.plotly_chart(fig, use_container_width=True)
         else:
